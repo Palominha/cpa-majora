@@ -1,0 +1,49 @@
+:root{
+  --vermelho:#E01501;
+  --vermelho-escuro:#610800;
+  --vermelho-rose:#E65245;
+  --vinho:#61231D;
+  --vermelho-medio:#AD0E00;
+  --vermelho-clarinho:#d48d86;
+  --branco:#fff;
+  --preto:#000;
+  --cinza-escuro:#1c1c1c;
+  --cinza-padrao:#333;
+  --amarelo-mega-escuro:#806000;
+  --verde:#52f34c;
+}
+
+
+.option {
+  background-color: var(--vermelho);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.4s;
+}
+
+.option:hover {
+  opacity: 1;
+}
+
+#options-container .option p {
+  margin-bottom: 0;
+}
+
+.correct {
+  background-color: var(--verde);
+  font-weight: bold;
+}
+
+.wrong {
+  background-color: var(--vermelho);
+  opacity: 0.5;
+}
+
+.hide {
+  display: none;
+}
+
+

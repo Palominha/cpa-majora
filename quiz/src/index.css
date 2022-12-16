@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+:root{
+  --vermelho:#E01501;
+  --vermelho-escuro:#610800;
+  --vermelho-rose:#E65245;
+  --vinho:#61231D;
+  --vermelho-medio:#AD0E00;
+  --vermelho-clarinho:#d48d86;
+  --amarelo:#FFC100;
+  --amarelo-escuro:#B38700;
+  --cinza:#455A64;
+  --amarelo-claro:#FFE699;
+  --branco:#fff;
+  --preto:#000;
+  --cinza-escuro:#1c1c1c;
+  --cinza-padrao:#333;
+  --amarelo-mega-escuro:#806000;
+  --verde:#52f34c;
+}
+
+
+body,
+html {
+  min-height: 100vh;
+  height: 100%;
+  background-color: var(--cinza-escuro);
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0.8em 1.8em;
+  background: linear-gradient(
+    90deg,
+    var(--vinho) 0%,
+    var(--vermelho)100%
+  );
+  border-radius: 3rem;
+  border: none;
+}
+
+button:hover {
+  background: linear-gradient(
+    90deg,
+    var(--vermelho) 0%,
+    var(--vinho)100%
+  );
+}
